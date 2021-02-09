@@ -12,7 +12,7 @@ h1{
     font-family:'Cinzel Decorative' ;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #3b7097;
+    color: #404E57;
     }
 
 h2{
@@ -47,3 +47,10 @@ h2{
     color: inherit;
 }
 
+#menu a:hover{
+    border-bottom: 1px solid #404E57;
+}
+
+.active {
+    border-bottom: 1px solid #404E57;
+}
