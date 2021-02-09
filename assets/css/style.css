@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Merriweather:wght@700&display=swap');
+
 *{ margin: 0;
     padding: 0;
     border: 0;
@@ -11,7 +12,7 @@ body{
 h1{
     font-family:'Merriweather' ;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     color: #152A3F;
     }
 
@@ -23,11 +24,13 @@ h2{
 .header-container {
     background-color:#B4BEC9;
     width: 100vw;
-    height: 10vh;
+    height: 120px;
 }
 #logo{
     float: left;
-    font-size: 300%;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 350%;
     font-weight: 750;
 }
 #logo, #menu{
@@ -85,8 +88,32 @@ h2{
     text-align: center;
     padding: 75px 75px 75px 75px;
     background-color: #5D8AA6;
+    font-size: 120%;
 }
 
 header, footer, section {
     overflow: auto;
+}
+
+.footer-container {
+    background-color:#B4BEC9;
+    width: 100vw;
+    height: 120px;
+}
+.social-links {
+    text-align: center;
+}
+.social-links li {
+    display: inline-block;
+    text-align: center;
+    color: #152A3F;
+    margin: 1%;
+    padding: 1%;
+}
+.social-links i {
+    font-size: 300%;
+    color: #152A3F;
+}
+.social-links p {
+    font-size: 120%;
 }
