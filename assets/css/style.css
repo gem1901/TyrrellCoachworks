@@ -54,3 +54,25 @@ h2{
 .active {
     border-bottom: 1px solid #404E57;
 }
+
+.fill img {
+    object-fit: cover;
+    width: 100vw;
+    height: 90vh;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+}
+#hero-outer {
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
