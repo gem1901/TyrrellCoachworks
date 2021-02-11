@@ -34,8 +34,35 @@
 
     </header>
     </div>
-    <section>Contact form
-
+    <section>
+        <form id="contact-form">
+            <div class="row">
+               <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+                 </div>
+                    <div class="col">
+                         <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>    
+             <div class="row">
+                 <div class="col">
+                    <input type="text" class="form-control" placeholder="Phone(if preferred contact method)">
+                 </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email">
+                     </div>
+            </div>    
+            <form class="was-validated">
+                <div class="mb-3">
+                     <label for="validationTextarea">Message</label>
+                         <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Message" required></textarea>
+                            <div class="invalid-feedback">
+                                Please tell us about your project.
+                             </div>
+                 </div>
+                    <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </form>
     </section>
     <div class="footer-container">
     <footer>
