@@ -13,16 +13,16 @@ h1{
     font-family:'Merriweather' ;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #152A3F;
+    color: #011638;
     }
 
 h2{
     font-family: 'Merriweather';
     letter-spacing: 1px;
-    color: #152A3F;
+    color: #011638;
 }
 .header-container {
-    background-color:#B4BEC9;
+    background-color:#067086;
     width: 100vw;
     height: 120px;
 }
@@ -41,7 +41,7 @@ h2{
     font-size: 150%;
     list-style-type: none;
     letter-spacing: 1px;
-    color: #152A3F;
+    color: #011638;
 }
 
 #menu li{
@@ -55,11 +55,11 @@ h2{
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #404E57;
+    border-bottom: 1px solid #011638;
 }
 
 .active {
-    border-bottom: 1px solid #404E57;
+    border-bottom: 1px solid #011638;
 }
 
 .fill img {
@@ -87,7 +87,7 @@ h2{
 #about-us {
     text-align: center;
     padding: 75px 75px 75px 75px;
-    background-color: #5D8AA6;
+    background-color: #9EC5AB;
     font-size: 120%;
 }
 
@@ -96,7 +96,7 @@ header, footer, section {
 }
 
 .footer-container {
-    background-color:#B4BEC9;
+    background-color:#067086;
     width: 100vw;
     height: 120px;
 }
@@ -106,14 +106,19 @@ header, footer, section {
 .social-links li {
     display: inline-block;
     text-align: center;
-    color: #152A3F;
+    color: #011638;
     margin: 1%;
     padding: 1%;
 }
 .social-links i {
     font-size: 300%;
-    color: #152A3F;
+    color: #011638;
 }
 .social-links p {
     font-size: 120%;
+}
+#contact-form {
+    width: 100vw;
+    min-height: calc (100vh - 240px);
+    background-color: #9EC5AB;
 }
