@@ -6,21 +6,26 @@
 }
 
 body{
-    font-family:'Merriweather Sans';
+    font-family:'Merriweather Sans', sans-serif;
     color: #777777;    }
 
 h1{
-    font-family:'Merriweather' ;
+    font-family:'Merriweather', sans-serif ;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #011638;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
     }
 
 h2{
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', sans-serif;
     letter-spacing: 1px;
     color: #011638;
 }
+
 .header-container {
     background-color:#067086;
     width: 100vw;
@@ -32,6 +37,10 @@ h2{
     margin-top: 20px;
     font-size: 350%;
     font-weight: 750;
+}
+#tagline {
+    float: left;
+    margin-left: 20px;
 }
 #logo, #menu{
     line-height: 75px;
@@ -118,7 +127,48 @@ header, footer, section {
     font-size: 120%;
 }
 #contact-form {
-    width: 100vw;
-    min-height: calc (100vh - 240px);
-    background-color: #9EC5AB;
+    background-color: #011638;
+}
+.contact-container {
+    width: 750px;
+    height: 900px;
+    background: #9EC5AB;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    box-shadow: 0 0 20px #a9a9a9;
+}
+.contact-container p {
+    font-family: 'Merriweather Sans';
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #2F4F4F;
+
+}
+.contact-container .input {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 2px solid #011638;
+    font-size: large;
+    border-radius: 5px;
+    outline: none;
+}
+.message .area {
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 2px solid #011638;
+    font-size: large;
+    border-radius: 5px;
+    outline: none;   
+}
+.btn {
+    text-align: center;
+    background-color: #2F4F4F;
+    
 }
