@@ -131,7 +131,7 @@ header, footer, section {
 }
 .contact-container {
     width: 750px;
-    height: 900px;
+    height: 950px;
     background: #9EC5AB;
     margin: 50px auto;
     box-sizing: border-box;
@@ -170,5 +170,14 @@ header, footer, section {
 .btn {
     text-align: center;
     background-color: #2F4F4F;
-    
+}
+#form-fb-link, #form-insta-link {
+    color: #2F4F4F;
+    font-size: 200%;
+}
+#form-fb-link {
+    margin-right: 20px;
+}
+#form-insta-link {
+    margin-left: 20px;
 }
