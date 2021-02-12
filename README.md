@@ -26,6 +26,7 @@ Ease of site navigation is paramount to achieve user goals, nav bar must be clea
 5. Surface
 Typography used must be suitable to audience making it easily read and the use of color should both be appealing to the user but also can be used to make important elements such as nav bar stand out.
 ### Wireframes
+* [Website wireframes] (../assets/wireframes/sitewireframes.bmpr)
 
 ## Features
 #### Existing features 
