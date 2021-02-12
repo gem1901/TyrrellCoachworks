@@ -32,17 +32,17 @@ h2{
     height: 120px;
 }
 #logo{
-    float: left;
     margin-left: 20px;
-    margin-top: 20px;
-    font-size: 350%;
     font-weight: 750;
 }
-#subtitle {
-    float: left;
-    margin-left: 20px;
-    font-size: medium;
+#logo :first-child {
+    font-size: 50px;
+
 }
+#logo :nth-child(2) {
+    font-size: 40px;
+}
+
 #logo, #menu{
     line-height: 75px;
 }
