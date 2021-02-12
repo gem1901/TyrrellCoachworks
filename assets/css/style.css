@@ -38,9 +38,10 @@ h2{
     font-size: 350%;
     font-weight: 750;
 }
-#tagline {
+#subtitle {
     float: left;
     margin-left: 20px;
+    font-size: medium;
 }
 #logo, #menu{
     line-height: 75px;
