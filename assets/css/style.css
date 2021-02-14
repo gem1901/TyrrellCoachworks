@@ -101,16 +101,16 @@ p {
 #cover-text, #cover-text h2 {
     color: #ffffff;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 #cover-text {
-    width: 350px;
-    height: 420px;
+    width: 320px;
+    height: 220px;
     padding-left: 10px;
     padding-top: 30px;
     background-color: rgba(158, 197, 171);
-    bottom: 50px;
+    top: 50px;
     left: 20px;
     position: absolute;
 }
@@ -130,12 +130,23 @@ header, footer, section {
 #gallery-heading {
     text-align: center;
 }
-#classic-subheading, #agri-subheading {
+#gallery-subheading {
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
 }
 #test-heading {
     text-align: center;
+    margin-bottom: 20px;
+}
+#testimonials {
+    background-color: #9EC5AB;
+}
+#testimonials p {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 footer {
