@@ -35,6 +35,15 @@ header, main, footer {
     letter-spacing: 1px;
     font-size: 20px;
 }
+.menu a:hover {
+    border-bottom: 1px solid #011638;
+}
+.menu a {
+    margin-left: 20px;
+}
+.active {
+    border-bottom: 1px solid #011638;
+}
 body{
     font-family:'Merriweather Sans', sans-serif;
     color: #777777;    }
