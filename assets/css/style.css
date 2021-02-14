@@ -25,11 +25,11 @@ header, main, footer {
     text-transform: uppercase;
     color: #011638;
     letter-spacing: 3px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 30px;
 }
 #homelink, #contactlink {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
     text-transform: uppercase;
     color: #011638;
     letter-spacing: 1px;
@@ -51,9 +51,12 @@ h1{
     }
 
 h2{
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather', serif;
     letter-spacing: 1px;
     color: #011638;
+}
+p {
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 #logo :first-child {
@@ -75,6 +78,7 @@ h2{
     width: 100vw;
     height: 600px;
     overflow: hidden;
+    position: relative;
 }
 
 @keyframes hero-zoom {
@@ -85,7 +89,22 @@ h2{
         transform: scale(1.1);
     }
 }
-
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+#cover-text {
+    width: 350px;
+    height: 420px;
+    padding-left: 10px;
+    padding-top: 30px;
+    background-color: rgba(158, 197, 171);
+    bottom: 50px;
+    left: 20px;
+    position: absolute;
+}
 #about-us {
     text-align: center;
     padding: 75px 75px 75px 75px;
@@ -95,6 +114,19 @@ h2{
 
 header, footer, section {
     overflow: auto;
+}
+#gallery {
+    background-color: #9ec5ab;
+}
+#gallery-heading {
+    text-align: center;
+}
+#classic-subheading, #agri-subheading {
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+#test-heading {
+    text-align: center;
 }
 
 footer {
@@ -117,7 +149,7 @@ footer {
 }
 .social-links p {
     font-size: 150%;
-    font-family: 'Merriweather';
+    font-family: 'Merriweather Sans', sans-serif;
 }
 #contact-form {
     background-color: #9ec5ab;
@@ -131,9 +163,9 @@ footer {
     padding: 40px;
 }
 .contact-container p {
-    font-family: 'Merriweather Sans';
+    font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
-    font-size: medium;
+    font-size: large;
     margin-bottom: 20px;
     letter-spacing: 1px;
     color: #2F4F4F;
