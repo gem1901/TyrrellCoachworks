@@ -26,19 +26,42 @@ Ease of site navigation is paramount to achieve user goals, nav bar must be clea
 5. Surface
 Typography used must be suitable to audience making it easily read and the use of color should both be appealing to the user but also can be used to make important elements such as nav bar stand out.
 ### Wireframes
-* [Website wireframes] (./assets/wireframes/sitewireframes.bmpr)
-
+* Website wireframes [view](https://github.com/gem1901/ms1-tyrrell-coachworks/blob/master/assets/wireframes/TCwireframes.pdf)
+(Note: Site originally planned with 4 site pages however after taking advice from mentor, reduced to just two pages with gallery and testimonials added to home page instead.)
 ## Features
+Site is responsive
 #### Existing features 
+
 #### Features left to implement 
+- Contact form, back end to be set up to receive data using Javascript
+- Once more images are obtained the gallery to be further developed into categories for the different types of metal work Tyrrell Coachworks provides.
+- Video content to be created for site, 360 walk arounds of vehicles etc.
 
 ## Technologies Used
+### Languages
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/CSS)
+-   [Javascript](https://www.javascript.com/)
+### 
 
 ## Testing
 
 ## Deployment
+I deployed the site with my mentor by following the below steps:
+1. 
 
 ## Credits
+- How to fill hero image came from this post:(https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch/29103071#29103071
+)
+- How to get footer to stick to bottom of page came from this post: (https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f)
+- How to format image carousel came from this post: (https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+)
+- How to match exact css color from hero image for site color, I used:(https://imagecolorpicker.com/en) 
 ### Content
+- All content was written by myself the developer
+- Customer testimonials consent given by each customer 
 ### Media
+- All images used are my own property
 ### Acknowledgements
+- My mentor for all his help and guidance 
+- Tutor support and student care for always being there at any time I needed them
