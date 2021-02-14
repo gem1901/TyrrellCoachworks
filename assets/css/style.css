@@ -271,6 +271,13 @@ footer {
     margin: 10px auto;
     padding: 10px;
     }
+    #hero-outer {
+    width: 100vw;
+    height: 400px;
+    }
+    #gallery-subheading {
+    font-size: 15px;
+    }
 
 
 
