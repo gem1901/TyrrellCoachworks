@@ -4,13 +4,43 @@
     padding: 0;
     border: 0;
 }
-
+html, body {
+    width: 100%;
+    height: 100%;
+}
+article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+main {
+    flex-grow: 1;
+}
+header, main, footer {
+    flex-shrink: 0;
+}
+#sitename {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    color: #011638;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 30px;
+}
+#homelink, #contactlink {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    color: #011638;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
 body{
     font-family:'Merriweather Sans', sans-serif;
     color: #777777;    }
 
 h1{
-    font-family:'Merriweather', sans-serif ;
+    font-family:'Merriweather', serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #011638;
@@ -26,50 +56,12 @@ h2{
     color: #011638;
 }
 
-.header-container {
-    background-color:#067086;
-    width: 100vw;
-    height: 120px;
-}
-#logo{
-    margin-left: 20px;
-    font-weight: 750;
-}
 #logo :first-child {
     font-size: 50px;
 
 }
 #logo :nth-child(2) {
     font-size: 40px;
-}
-
-#logo, #menu{
-    line-height: 75px;
-}
-
-#menu{
-    font-size: 150%;
-    list-style-type: none;
-    letter-spacing: 1px;
-    color: #011638;
-}
-
-#menu li{
-    float: right;
-    margin-right: 20px;
-}
-
-#menu a{
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover{
-    border-bottom: 1px solid #011638;
-}
-
-.active {
-    border-bottom: 1px solid #011638;
 }
 
 .fill img {
@@ -81,7 +73,7 @@ h2{
 }
 #hero-outer {
     width: 100vw;
-    height: 90vh;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -105,10 +97,9 @@ header, footer, section {
     overflow: auto;
 }
 
-.footer-container {
-    background-color:#067086;
-    width: 100vw;
-    height: 120px;
+footer {
+    background-color: #067086;
+    height: 105px;
 }
 .social-links {
     text-align: center;
@@ -125,10 +116,11 @@ header, footer, section {
     color: #011638;
 }
 .social-links p {
-    font-size: 120%;
+    font-size: 150%;
+    font-family: 'Merriweather';
 }
 #contact-form {
-    background-color: #011638;
+    background-color: #9ec5ab;
 }
 .contact-container {
     width: 750px;
@@ -137,7 +129,6 @@ header, footer, section {
     margin: 50px auto;
     box-sizing: border-box;
     padding: 40px;
-    box-shadow: 0 0 20px #a9a9a9;
 }
 .contact-container p {
     font-family: 'Merriweather Sans';

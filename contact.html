@@ -3,83 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tyrrell Coachworks</title>
+    <title>Tyrrell Coachworks | Custom Metal Fabrication</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="header-container">
-    <header>
-        <a href="index.html">
-            <h1 id="logo">Tyrrell Coachworks</h1>
-        </a>
-        <nav>
-            <ul id="menu">
+    <article>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #067086;">
+                <a class="navbar-brand" href="index.html" id="sitename"><span>Tyrrell</span><br><span>Coachworks</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="index.html" id="homelink">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="contact.html" id="contactlink">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+             <section id="contact-form">
+                 <div class="contact-container">
+                    <p>Do not hesitate to get in touch about your project or specific requirements, fill out the form below and Brendan will aim to get back to you within 1 working day.</p> 
+                    <p>Follow us through our social media links below to keep up with our latest projects:</p>
+                    <p><a href="https://www.facebook.com/classic.c.restorations" target="_blank" id="form-fb-link">
+                    <i class="fab fa-facebook-square"></i></a><a href="https://www.instagram.com/tyrrellcoachworks/" target="_blank" id="form-insta-link">
+                    <i class="fab fa-instagram"></i></a></p>
+                    <p>Feel free to contact Brendan on:<i class="fas fa-phone"></i> 00353-867771175 <br> Mon-Sat 9am-5pm</p>
+                    <p>Email<i class="fas fa-envelope-square"></i>: info@tyrrellcoachworks.ie</p>
+
+                        <div class="name">
+                             <input type="text" class="input" placeholder="Name">
+                         </div>
+                         <div class="contact details">
+                             <input type="number" class="input" placeholder="Phone number (if prefered contact method)">
+                             <input type="email" class="input" placeholder="Email" >
+                        </div>
+                         <div class="message">
+                             <textarea class="area" placeholder="Tell us about your project"></textarea>
+                         </div>
+                        <button type="button" class="btn btn-secondary btn-block" id="btn">Send Message</button>
+
+                </div>
+         </section>
+        </main>
+
+        <footer>
+            <ul class="social-links">
                 <li>
-                    <a class="active" href="contact.html">Contact Us</a>
+                    <p>Follow us on social media:</p>
                 </li>
                 <li>
-                    <a href="testimonials.html">Testimonials</a>
+                    <a href="https://www.facebook.com/classic.c.restorations" target="_blank">
+                        <i class="fab fa-facebook-square"></i></a>
                 </li>
                 <li>
-                    <a href="gallery.html">Gallery</a>
+                    <a href="https://www.instagram.com/tyrrellcoachworks/" target="_blank">
+                        <i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <p>Sales: 00353 867771175</p>
                 </li>
             </ul>
-        </nav>
 
-    </header>
-    </div>
-    <section id="contact-form">
-        <div class="contact-container">
-            <p>Do not hesitate to get in touch about your project or specific requirements, fill out the form below and Brendan will aim to get back to you within 1 working day.</p> 
-            <p>Follow us through our social media links below to keep up with our latest projects:</p>
-            <p><a href="https://www.facebook.com/classic.c.restorations" target="_blank" id="form-fb-link">
-                <i class="fab fa-facebook-square"></i></a><a href="https://www.instagram.com/tyrrellcoachworks/" target="_blank" id="form-insta-link">
-                <i class="fab fa-instagram"></i></a></p>
-            <p>Feel free to contact Brendan on:<i class="fas fa-phone"></i> 00353-867771175 <br> Mon-Sat 9am-5pm</p>
-            <p>Email<i class="fas fa-envelope-square"></i>: info@tyrrellcoachworks.ie</p>
-
-            <div class="name">
-                <input type="text" class="input" placeholder="Name">
-            </div>
-            <div class="contact details">
-                <input type="number" class="input" placeholder="Phone number (if prefered contact method)">
-                <input type="email" class="input" placeholder="Email" >
-            </div>
-            <div class="message">
-                <textarea class="area" placeholder="Tell us about your project"></textarea>
-            </div>
-            <button type="button" class="btn btn-secondary btn-block" id="btn">Send Message</button>
-
-        </div>
+        </footer>
         
-    </section>
-    <div class="footer-container">
-    <footer>
-        <ul class="social-links">
-            <li>
-                <p>Follow us on social media:</p>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/classic.c.restorations" target="_blank">
-                <i class="fab fa-facebook-square"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/tyrrellcoachworks/" target="_blank">
-                <i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-                <p>Sales: 00353 867771175</p>
-            </li>
-        </ul>
-        
-    </footer>
-    </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    </article>
 </body>
 </html>
