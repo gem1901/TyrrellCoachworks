@@ -46,8 +46,8 @@ header, main, footer {
 }
 body{
     font-family:'Merriweather Sans', sans-serif;
-    color: #777777;    }
-
+    color: #777777;    
+}
 h1{
     font-family:'Merriweather', serif;
     text-transform: uppercase;
@@ -58,7 +58,6 @@ h1{
     margin: 0;
     padding: 0;
     }
-
 h2{
     font-family: 'Merriweather', serif;
     letter-spacing: 1px;
@@ -67,15 +66,12 @@ h2{
 p {
     font-family: 'Merriweather Sans', sans-serif;
 }
-
 #logo :first-child {
     font-size: 50px;
-
 }
 #logo :nth-child(2) {
     font-size: 40px;
 }
-
 .fill img {
     object-fit: cover;
     width: 100vw;
@@ -89,7 +85,6 @@ p {
     overflow: hidden;
     position: relative;
 }
-
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -106,9 +101,10 @@ p {
 }
 #cover-text {
     width: 320px;
-    height: 220px;
+    height: 260px;
     padding-left: 10px;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: rgba(158, 197, 171);
     top: 50px;
     left: 20px;
@@ -120,7 +116,6 @@ p {
     background-color: #9EC5AB;
     font-size: 120%;
 }
-
 header, footer, section {
     overflow: auto;
 }
@@ -135,10 +130,15 @@ header, footer, section {
     font-family: 'Merriweather Sans', sans-serif;
     margin-top: 20px;
     font-size: 20px;
+    color: #ffffff;
+}
+#classic-carousel {
+    height: 600px;
 }
 #test-heading {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 #testimonials {
     background-color: #9EC5AB;
@@ -148,7 +148,6 @@ header, footer, section {
     margin-left: 30px;
     margin-right: 30px;
 }
-
 footer {
     background-color: #067086;
     height: 105px;
@@ -170,6 +169,7 @@ footer {
 .social-links p {
     font-size: 150%;
     font-family: 'Merriweather Sans', sans-serif;
+    color: #011638;
 }
 #contact-form {
     background-color: #9ec5ab;
@@ -189,7 +189,6 @@ footer {
     margin-bottom: 20px;
     letter-spacing: 1px;
     color: #2F4F4F;
-
 }
 .contact-container .input {
     width: 100%;
@@ -225,7 +224,7 @@ footer {
 #form-insta-link {
     margin-left: 20px;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     #cover-text {
     width: 250px;
     height: 150px;
